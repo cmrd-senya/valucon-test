@@ -1,0 +1,15 @@
+<header>
+    <h1>Valucon Test Application -- Task #1</h1>
+</header>
+<seciton>
+    <div ng-controller="FeedbacksController">
+        <form name="feedbackForm">
+            <label>Your email: </label>
+            <input type="text" ng-model="email" /><br>
+            <label>Your feedback:</label><br>
+            <textarea type="text" ng-model="feedbackText" /><br>
+            <button ng-click="newFeedback()">Post</button>
+        </form>
+    </div>
+</seciton>
+<flash-message></flash-message>
