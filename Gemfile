@@ -50,6 +50,8 @@ group :development, :test do
 
   gem 'rspec-rails'
 
+  gem 'poltergeist'
+
   gem 'pry'
 end
 
