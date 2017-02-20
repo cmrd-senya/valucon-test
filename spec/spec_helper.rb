@@ -23,9 +23,8 @@ require 'capybara/rspec'
 require 'capybara'
 require 'capybara/dsl'
 
-#Load up Poltergeist
+# Load up Poltergeist
 require 'capybara/poltergeist'
-
 
 Capybara.configure do |c|
   c.javascript_driver = :poltergeist
@@ -74,7 +73,7 @@ RSpec.configure do |config|
   # Allows RSpec to persist some state between runs in order to support
   # the `--only-failures` and `--next-failure` CLI options. We recommend
   # you configure your source control system to ignore this file.
-  config.example_status_persistence_file_path = "tmp/examples.txt"
+  config.example_status_persistence_file_path = 'tmp/examples.txt'
 
   # Limits the available syntax to the non-monkey patched syntax that is
   # recommended. For more details, see:

@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - "bin/**/*"
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+
+Metrics/LineLength:
+  Max: 120
