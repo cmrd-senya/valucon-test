@@ -17,4 +17,5 @@
 //= require angular-route
 //= require angular-rails-templates
 //= require angular-flash-alert
+//= require ng-file-upload
 //= require_tree .
