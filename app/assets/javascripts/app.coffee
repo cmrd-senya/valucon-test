@@ -2,6 +2,7 @@ valucon = angular.module('valucon',[
   'templates',
   'ngRoute',
   'controllers',
+  'ngFileUpload',
   "ngFlash"
 ])
 
@@ -9,7 +10,12 @@ valucon.config([ '$routeProvider',
   ($routeProvider)->
     $routeProvider
       .when('/',
-        templateUrl: "index.html"
+        templateUrl: "index.html",
+        controller: "UploadsController"
+      )
+      .when('/photos',
+        templateUrl: "photos/index.html",
+        controller: 'PhotosController'
       )
       .when('/feedbacks/new',
         templateUrl: "feedbacks/new.html"

@@ -1,0 +1,13 @@
+<header>
+    <h1>Our memes collection</h1>
+</header>
+
+<div ng-controller="PhotosController">
+    <div class="memes" >
+        <a ng-repeat="photo in photos" href="{{photo.url}}">
+            <figure>
+                <img src={{photo.url}} alt="">
+            </figure>
+        </a>
+    </div>
+</div>
