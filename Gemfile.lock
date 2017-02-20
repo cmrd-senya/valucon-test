@@ -149,6 +149,10 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
     rspec-core (3.5.4)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
@@ -234,6 +238,7 @@ DEPENDENCIES
   rails (~> 5.0.1)
   rails-assets-angular-flash-alert!
   rails-assets-angular-route!
+  rspec
   rspec-rails
   rubocop
   sass-rails (~> 5.0)

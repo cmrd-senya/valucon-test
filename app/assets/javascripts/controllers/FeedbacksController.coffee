@@ -1,4 +1,4 @@
-controllers = angular.module('controllers',[])
+controllers = angular.module('controllers')
 controllers.controller("FeedbacksController", [ '$scope', '$http', 'Flash'
   ($scope, $http, Flash)->
     $scope.newFeedback = ->
